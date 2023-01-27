@@ -1,8 +1,8 @@
 services:
-- type: pserv
+- type: web
   name: elasticsearch
   env: docker
-  plan: free
+  plan: starter
   disk:
     name: esdata
     mountPath: /usr/share/elasticsearch/data
